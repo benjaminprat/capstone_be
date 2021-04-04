@@ -1,4 +1,4 @@
 class Wine < ApplicationRecord
-  has_many :cards
+  has_many :entries
   belongs_to :users
 end
