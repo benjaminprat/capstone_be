@@ -1,0 +1,12 @@
+ @wines.map do |wine|
+  {
+    id: wine.id,
+    style: wine.style,
+    name: wine.name,
+    producer: wine.producer,
+    variety: wine.variety,
+    location: wine.location,
+    vintage: wine.vintage,
+    
+  }
+end
