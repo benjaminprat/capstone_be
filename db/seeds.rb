@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+wines = Wine.create!([{name:"Fischer Vineyard", producer: "Beaux Freres", variety:"Pinot Noir", location:"Oregon", vintage: 2005, style:"red-light"}, {name:"Renegade Ridge", producer: "Archery Summit", variety:"Pinot Noir", location:"Oregon", vintage: 2015, style:"red-light"}, {name:"Les Cailloux", producer: "Dom. De La Pierre", variety:"Grenache", location:"Rhone", vintage: 2012, style:"red-light"}])
