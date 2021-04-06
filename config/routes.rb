@@ -7,6 +7,6 @@ Rails.application.routes.draw do
     get "/wines" => "wines#index"
     post"/wines" => "wines#create"
     post "/users" => "users#create"
-
-  end
+    post "/sessions" => "sessions#create"
+    end
 end
