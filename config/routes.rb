@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     get "/wines" => "wines#index"
     post"/wines" => "wines#create"
+    post "/users" => "users#create"
+
   end
 end
