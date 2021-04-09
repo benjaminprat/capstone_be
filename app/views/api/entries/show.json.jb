@@ -1,0 +1,19 @@
+{ id: @entry.id,
+  wine: {
+    id: @entry.wine.id,
+    name: @entry.wine.name,
+    producer: @entry.wine.producer,
+    variety: @entry.wine.variety,
+    location: @entry.wine.location,
+    vintage: @entry.wine.vintage,
+    
+  },
+  user_id: @entry.user_id,
+  opinion: @entry.opinion,
+  see: @entry.see,
+  smell: @entry.smell,
+  taste: @entry.taste,
+  date_tasted: @entry.date_tasted,
+  purchase_point: @entry.purchase_point
+
+}
