@@ -8,5 +8,6 @@ Rails.application.routes.draw do
       post"/wines" => "wines#create"
       post "/users" => "users#create"
       post "/sessions" => "sessions#create"
-      end
+      post "/entries" => "entries#create"
+  end
 end
