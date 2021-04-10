@@ -1,5 +1,5 @@
 class Wine < ApplicationRecord
   has_many :entries
-  belongs_to :users
+  belongs_to :user, optional: true
 
 end
