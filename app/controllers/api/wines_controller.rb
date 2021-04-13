@@ -17,5 +17,6 @@ class Api::WinesController < ApplicationController
     render "show.json.jb"
   end
 
+
 end
 

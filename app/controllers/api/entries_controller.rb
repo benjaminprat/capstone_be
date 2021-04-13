@@ -1,7 +1,13 @@
 class Api::EntriesController < ApplicationController
-  # before_action :authenticate_user
+  before_action :authenticate_user
  
   def create 
+    p "current_user"
+    p current_user
+    p "current_user"
+    
+    wine = Wine.find_by(id: params[:wine_id])
+
     @entry = Entry.new(
       wine_id: params[:wine_id],
       user_id: current_user.id,
