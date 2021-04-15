@@ -1,6 +1,12 @@
 class Api::EntriesController < ApplicationController
-  before_action :authenticate_user
+  # before_action :authenticate_user
  
+  def index
+    @entries = Entry.all
+    render "index.json.jb"
+  end
+
+
   def create 
     p "current_user"
     p current_user
@@ -20,5 +26,11 @@ class Api::EntriesController < ApplicationController
     )
     @entry.save!
     render "show.json.jb"
+  end
+  
+  def show
+    entry_id = params[:id]
+    @entry = Entry.find_by(id: entry_id)
+    render "showEntry.json.jb"
   end
 end
