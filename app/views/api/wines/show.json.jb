@@ -1,10 +1,10 @@
 {
   id: @wine.id,
   style: @wine.style,
-  name: @wine.name,
-  producer: @wine.producer,
-  variety: @wine.variety,
-  location: @wine.location,
+  producer_wine: @wine.producer_wine,
+  grape: @wine.grape,
+  region: @wine.region,
   vintage: @wine.vintage,
+  country:@wine.country,
   
 }

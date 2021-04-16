@@ -18,7 +18,7 @@ class Api::EntriesController < ApplicationController
       wine_id: params[:wine_id],
       user_id: current_user.id,
       opinion: params[:opinion],
-      see: params[:see],
+      look: params[:look],
       smell: params[:smell],
       taste: params[:taste],
       date_tasted: params[:date_tasted],

@@ -7,11 +7,11 @@ class Api::WinesController < ApplicationController
   def create
     @wine = Wine.new(
     style: params[:style],
-    name: params[:name],
-    producer: params[:producer],
-    variety: params[:variety],
-    location: params[:location],
-    vintage: params[:vintage]
+    producer_wine: params[:producer_wine],
+    grape: params[:grape],
+    region: params[:region],
+    country: params[:country],
+    vintage: params[:vintage],
   )
     @wine.save
     render "show.json.jb"

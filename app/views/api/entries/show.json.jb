@@ -1,16 +1,17 @@
 { id: @entry.id,
   wine: {
     id: @entry.wine.id,
-    name: @entry.wine.name,
-    producer: @entry.wine.producer,
-    variety: @entry.wine.variety,
-    location: @entry.wine.location,
+    producer_wine: @entry.wine.producer_wine,
+    grape: @entry.wine.grape,
+    region: @entry.wine.region,
     vintage: @entry.wine.vintage,
+    country: @entry.wine.country,
+
     
   },
   user_id: @entry.user_id,
   opinion: @entry.opinion,
-  see: @entry.see,
+  look: @entry.look,
   smell: @entry.smell,
   taste: @entry.taste,
   date_tasted: @entry.date_tasted,

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_04_201448) do
+ActiveRecord::Schema.define(version: 2021_04_15_222552) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_04_201448) do
     t.integer "user_id"
     t.integer "wine_id"
     t.string "opinion"
-    t.string "see"
+    t.string "look"
     t.text "smell"
     t.text "taste"
     t.date "date_tasted"
@@ -38,13 +38,13 @@ ActiveRecord::Schema.define(version: 2021_04_04_201448) do
 
   create_table "wines", force: :cascade do |t|
     t.string "style"
-    t.string "name"
-    t.string "producer"
-    t.string "variety"
-    t.string "location"
+    t.string "producer_wine"
+    t.string "grape"
     t.integer "vintage"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "region"
+    t.string "country"
   end
 
 end
