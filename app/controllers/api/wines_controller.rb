@@ -16,7 +16,12 @@ class Api::WinesController < ApplicationController
     @wine.save
     render "show.json.jb"
   end
-
+  
+  def destroy
+    wine = Wine.find_by(id:params[:id])
+    wine.destroy
+    render json: {message: "Wine Successfully deleted"}
+  end
 
 end
 

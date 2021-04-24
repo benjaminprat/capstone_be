@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     get "/wines" => "wines#index"
     post"/wines" => "wines#create"
+    delete"/wines/:id" => "wines#destroy"
     post "/entries" => "entries#create"
     get "/entries/:id" => "entries#show"
     get "/entries" => "entries#index"
