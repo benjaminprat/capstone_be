@@ -33,4 +33,10 @@ class Api::EntriesController < ApplicationController
     @entry = Entry.find_by(id: entry_id)
     render "showEntry.json.jb"
   end
+
+  def destroy
+    entry = Entry.find_by(id: params[:id])
+    entry.destroy
+    render json: {message: 'Entry deleted'}
+  end
 end
