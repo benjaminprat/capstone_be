@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-redgrapes = RedGrape.create!([{name: "Pinot Noir", pronunciation: "pee-no nwar", 
-origin: "France", fruit: 4, body: 3, tannin: 2, acidity: 4, alcohol: 3, 
-dominant_flavors: "Cranberry Cherry Raspberry Clove Mushroom"},
-{name:"Barbera", pronunciation: "bar-BEAR-uh", origin:"Italy", fruit: 4, body: 4, 
-tannin: 1, acidity: 5, alcohol: 4, dominant_flavors: "Sour Cherry Licorice Blackberry Dried Herbs Tar"}, 
-{name:"Cabernet Franc", pronunciation: "cab-err-nay fronk", 
-origin:"France", fruit:3 , body: 3, tannin: 4, acidity: 4, alcohol: 3, dominant_flavors: 
-"Strawberry Roasted Pepper Red Plum Crushed Gravel Chili Pepper"}])
+redgrapes = RedGrape.create!([{name: "Valpolicella Blend", pronunciation: "val-polla-chella", 
+origin: "Italy", fruit: 3, body: 3, tannin: 2, acidity: 5, alcohol: 3, 
+dominant_flavors: "Sour Cherry Cinnamon Green Peppercorn Carob Green Almond"},
+{name:"Zinfandel", pronunciation: "zin-fan-dell", origin:"Croatia", fruit: 5, body: 5, 
+tannin: 3, acidity: 2, alcohol: 5, dominant_flavors: "Blackberry, Strawberry, Peach Preserves 5-Spice Powder Sweet Tobacco"}, 
+{name:"Aglianico", pronunciation: "alli-yawn-nico", 
+origin:"Italy", fruit: 2, body: 5, tannin: 5, acidity: 5, alcohol: 4, dominant_flavors: 
+"White Pepper Black Cherry Smoke Game Spiced Plum"}])
