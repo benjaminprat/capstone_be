@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     delete"/entries/:id" => "entries#destroy"
 
     post "/grapes" => "grapes#create"
+    get "/grapes"  => "grapes#index"
 
 
     post "/users" => "users#create"
