@@ -1,8 +1,9 @@
 @grapes.map do |grape|
   {
+    id: grape.id,
     name: grape.name,
-    origin: grape.pronunciation,
-    pronunciation: grape.origin,
+    origin: grape.origin,
+    pronunciation: grape.pronunciation,
     fruit: grape.fruit,
     body: grape.body,
     acidity: grape.acidity,
