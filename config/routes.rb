@@ -16,6 +16,8 @@ Rails.application.routes.draw do
     post "/grapes" => "grapes#create"
     get "/grapes"  => "grapes#index"
 
+    get "/redgrapes" => "redgrapes#index"
+
 
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
