@@ -1,0 +1,11 @@
+{
+  name: @redgrape.name,
+  origin: @redgrape.origin,
+  pronunciation: @redgrape.pronunciation,
+  fruit: @redgrape.fruit,
+  body: @redgrape.body,
+  acidity: @redgrape.acidity,
+  alcohol: @redgrape.alcohol,
+  dominant_flavors: @redgrape.dominant_flavors,
+  
+}
