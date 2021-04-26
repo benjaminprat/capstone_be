@@ -13,6 +13,9 @@ Rails.application.routes.draw do
     get "/entries/:id" => "entries#show"
     delete"/entries/:id" => "entries#destroy"
 
+    post "/grapes" => "grapes#create"
+
+
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
   end
