@@ -15,8 +15,10 @@ Rails.application.routes.draw do
 
     post "/grapes" => "grapes#create"
     get "/grapes"  => "grapes#index"
+    get "/grapes/:id" => "grapes#show"
 
     get "/redgrapes" => "redgrapes#index"
+    get"/redgrapes/:id" => "redgrapes#show"
 
 
     post "/users" => "users#create"
