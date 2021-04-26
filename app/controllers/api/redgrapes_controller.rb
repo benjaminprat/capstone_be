@@ -20,6 +20,11 @@ class Api::RedgrapesController < ApplicationController
     @redgrape.save
     render "show.json.jb"
   end
+
+  def show 
+    @redgrape = RedGrape.find_by(id: params[:id])
+    render "show.json.jb"
+  end
 end
 
 
