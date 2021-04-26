@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-grapes = Grape.create!([{name: "Sauvignon Blanc", pronunciation: "saw-veen-yawn blonc", 
-origin:"France", fruit: 5, body: 1, dry: 2, acidity: 5, alcohol: 3, 
-dominant_flavors: "Gooseberry Green Melon Grapefruit White Peach Passion Fruit"},
-{name:"Soave", pronunciation: "swa-vay", origin:"Veneto, Italy", fruit: 2,
-body: 1, dry: 1, acidity: 5, alcohol: 3, dominant_flavors: "Preserved Lemon Honeydew/Melon 
-Saline Green Almond Chervil" }, {name:"Vermentino", pronunciation: "vur-men-tino", 
-origin:"Italy", fruit: 3, body: 1, dry: 2, acidity: 4, alcohol: 3, 
-dominant_flavors: "Lime Grapefruit Green Apple Almond Daffodil"}])
+grapes = Grape.create!([{name: "Viognier", pronunciation: "vee-own-yay", 
+origin:"Southern France", fruit: 5 , body: 3, dry: 3, acidity: 2, alcohol: 4, 
+dominant_flavors: "Tangerine Peach Mango Honeysuckle Rose"},
+{name:"Chenin Blanc", pronunciation: "shen-in blonk", origin:"France", fruit: 3,
+body: 1, dry: 3, acidity: 5, alcohol: 3, dominant_flavors: "Lemon Yellow Apple Pear Honey Chamomile" }, 
+{name:"Gewürztraminer", pronunciation: "ga-veertz-tram-ee-ner", 
+origin:"Germany and France", fruit: 5, body: 3, dry: 3, acidity: 1, alcohol: 4, dominant_flavors: 
+"Lychee Rose Pink Grapefruit Tangerine Guava"}])
