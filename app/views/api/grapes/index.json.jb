@@ -1,0 +1,14 @@
+@grapes.map do |grape|
+  {
+    name: grape.name,
+    origin: grape.pronunciation,
+    pronunciation: grape.origin,
+    fruit: grape.fruit,
+    body: grape.body,
+    acidity: grape.acidity,
+    dry: grape.dry,
+    alcohol: grape.alcohol,
+    dominant_flavors: grape.dominant_flavors,
+    
+  }
+  end
