@@ -1,4 +1,9 @@
 class Api::GrapesController < ApplicationController
+  def index
+    @grapes = Grape.all
+    render "index.json.jb"
+  end
+
   def create 
     @grape = Grape.new(
     name: params[:name],
@@ -12,7 +17,7 @@ class Api::GrapesController < ApplicationController
     dominant_flavors: params[:dominant_flavors],
   )
     @grape.save
-    render "index.json.jb"
+    render "show.json.jb"
   end
 
 
