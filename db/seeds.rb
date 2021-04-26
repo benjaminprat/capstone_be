@@ -6,4 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-grapes = Grape.create!([{name:"Champagne", pronunciation: "sham-pain", origin:"Champagne, France", fruit: 2, body: 1, dry: 1, acidity: 5, alcohol: 2, dominant_flavors:"Citrus Peach White Cherry Almond Toast"}, {name:"Lambrusco", pronunciation: "lam-broos-co", origin:"northern Italy", fruit: 4, body: 2, dry: 3, acidity: 5, alcohol: 1, dominant_flavors: "Strawberry Cherry Boysenberry Rhubarb Hibiscus" }, {name:"Prosecco", pronunciation: "pro-seh-co", origin:"northern Italy", fruit: 4, body: 1, dry: 2, acidity: 4, alcohol: 3, dominant_flavors: "Green Apple Honeydew/Melon Pear Honeysuckle Cream"}])
+grapes = Grape.create!([{name: "Sauvignon Blanc", pronunciation: "saw-veen-yawn blonc", 
+origin:"France", fruit: 5, body: 1, dry: 2, acidity: 5, alcohol: 3, 
+dominant_flavors: "Gooseberry Green Melon Grapefruit White Peach Passion Fruit"},
+{name:"Soave", pronunciation: "swa-vay", origin:"Veneto, Italy", fruit: 2,
+body: 1, dry: 1, acidity: 5, alcohol: 3, dominant_flavors: "Preserved Lemon Honeydew/Melon 
+Saline Green Almond Chervil" }, {name:"Vermentino", pronunciation: "vur-men-tino", 
+origin:"Italy", fruit: 3, body: 1, dry: 2, acidity: 4, alcohol: 3, 
+dominant_flavors: "Lime Grapefruit Green Apple Almond Daffodil"}])
