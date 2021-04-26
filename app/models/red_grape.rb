@@ -1,0 +1,2 @@
+class RedGrape < ApplicationRecord
+end
