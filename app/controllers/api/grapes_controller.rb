@@ -21,8 +21,9 @@ class Api::GrapesController < ApplicationController
   end
 
   def show 
-    @grape = Grape.find_by(id: params[:id])
+    grape_id = params[:id]
+    @grape = Grape.find_by(id: grape_id)
     render "show.json.jb"
   end
-
 end
+
