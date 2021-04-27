@@ -20,7 +20,9 @@ Rails.application.routes.draw do
     get "/redgrapes" => "redgrapes#index"
     get"/redgrapes/:id" => "redgrapes#show"
 
-
+    get "/desserts" => "desserts#index"
+    get "desserts/id" => "desserts#show"
+    
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
   end
