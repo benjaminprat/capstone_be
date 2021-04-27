@@ -1,5 +1,8 @@
 class Api::DessertsController < ApplicationController
-
+  def index
+    @desserts = Dessert.all()
+    render "index.json.jb"
+  end
   
   def create
     @dessert = Dessert.new(
@@ -14,8 +17,13 @@ class Api::DessertsController < ApplicationController
   dominant_flavors: params[:dominant_flavors],
     )
     @dessert.save
-    render 'json' {message: "wine added"}
+    # render 'json' {message: "wine added"}
   end
 
+  def show 
+    @dessert = Dessert.find_by(id:params[:id])
+    render "show.json.jb"
+  end
+  
 
 end
