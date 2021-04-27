@@ -1,0 +1,11 @@
+{
+  name: @dessert.name,
+  pronunciation: @dessert.pronunciation,
+  origin: @dessert.origin,
+  fruit: @dessert.fruit,
+  body: @dessert.body,
+  sweet: @dessert.sweet,
+  acidity: @dessert.acidity,
+  alcohol: @dessert.alcohol,
+  dominant_flavors: @dessert.dominant_flavors,
+}
