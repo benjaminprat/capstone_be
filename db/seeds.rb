@@ -6,17 +6,25 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-ingredient = Ingredient.create!([{name: "Pasta", category: "Starch", sub_category: "White Starches"},
-  {name: "Bread", category: "Starch", sub_category: "White Starches"},
-  {name: "Flour Tortillas", category: "Starch", sub_category: "White Starches"},
-  {name: "Quinoa", category: "Starch", sub_category: "Whole Wheat Grains"}, 
-  {name: "Farro", category: "Starch", sub_category: "Whole Wheat Grains"},
-  {name: "Brown Rice", category: "Starch", sub_category: "Whole Wheat Grains"},
-  {name: "Sweet Potato", category: "Starch", sub_category: "Sweet Starchy Vegetable"},
-  {name: "Yucca", category: "Starch", sub_category: "Sweet Starchy Vegetable"},
-  {name: "Taro", category: "Starch", sub_category: "Sweet Starchy Vegetable"},
-  {name: "Russet Potato", category: "Starch", sub_category: "Potato"},
-  {name: "Idaho Potato", category: "Starch", sub_category: "Potato"},
+ingredient = Ingredient.create!([{name: "Feta", category: "Meat", sub_category: "Fresh, Salty, Sour"},
+  {name: "Cotija", category: "Meat", sub_category: "Fresh, Salty, Sour"},
+  {name: "Paneer", category: "Meat", sub_category: "Fresh, Salty, Sour"},
+  {name: "Chevre", category: "Meat", sub_category: "Fresh, Salty, Sour"}, 
+  {name: "Sour Cream", category: "Meat", sub_category: "Fresh, Salty, Sour"},
+  {name: "Brie", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Comte", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Mascarpone", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Mozzarella", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Ricotta", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Swiss", category: "Meat", sub_category: "Delicate & Soft"},
+  {name: "Asiago", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Cheddar", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Smoked Gouda", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Halloumi", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Manchego", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Parmesan", category: "Meat", sub_category: "Strong & Hard"},
+  {name: "Pecorino", category: "Meat", sub_category: "Strong & Hard"},
+
        ])
 
 
