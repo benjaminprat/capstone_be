@@ -6,16 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-varietal = Varietal.create!([
-  {style: "Full-Red", name: "Malbec"},
-  {style: "Full-Red", name: "Syrah/Shiraz"},
-  {style: "Full-Red", name: "Mourvedre"},
-  {style: "Full-Red", name: "Pinotage"},
-  {style: "Full-Red", name: "Petite Sirah"},
-  {style: "Full-Red", name: "Touriga Nacional"},
-  {style: "Full-Red", name: "Cabernet Sauvignon"},
-  {style: "Full-Red", name: "Cabernet Sauvignon Blend"},
-  {style: "Full-Red", name: "Meritage"},
+preparation = Preparation.create!([
+  {style: "Poach/Steam"},
+  {style: "Roast"},
+  {style: "Smoke"},
+  {style: "Sautee/Fry"},
+  {style: "Grill/Barbecue"},
        ])
 
 
