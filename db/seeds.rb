@@ -6,25 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-ingredient = Ingredient.create!([{name: "Feta", category: "Meat", sub_category: "Fresh, Salty, Sour"},
-  {name: "Cotija", category: "Meat", sub_category: "Fresh, Salty, Sour"},
-  {name: "Paneer", category: "Meat", sub_category: "Fresh, Salty, Sour"},
-  {name: "Chevre", category: "Meat", sub_category: "Fresh, Salty, Sour"}, 
-  {name: "Sour Cream", category: "Meat", sub_category: "Fresh, Salty, Sour"},
-  {name: "Brie", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Comte", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Mascarpone", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Mozzarella", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Ricotta", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Swiss", category: "Meat", sub_category: "Delicate & Soft"},
-  {name: "Asiago", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Cheddar", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Smoked Gouda", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Halloumi", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Manchego", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Parmesan", category: "Meat", sub_category: "Strong & Hard"},
-  {name: "Pecorino", category: "Meat", sub_category: "Strong & Hard"},
-
+ingredient = Ingredient.create!([{name: "Strawberry", category: "Dessert", sub_category: "Fruit & Berries"},
+  {name: "Orange", category: "Dessert", sub_category: "Fruit & Berries"},
+  {name: "Apple", category: "Dessert", sub_category: "Fruit & Berries"},
+  {name: "Peach", category: "Dessert", sub_category: "Fruit & Berries"}, 
+  {name: "Creme Brulee", category: "Dessert", sub_category: "Vanilla & Caramel"},
+  {name: "Ice Cream", category: "Dessert", sub_category: "Vanilla & Caramel"},
+  {name: "Tiramisu", category: "Dessert", sub_category: "Coffee & Chocolate"},
+  {name: "Chocolate Cake", category: "Dessert", sub_category: "Coffee & Chocolate"},
+  
        ])
 
 
