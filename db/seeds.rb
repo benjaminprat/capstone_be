@@ -6,15 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-ingredient = Ingredient.create!([{name: "Strawberry", category: "Dessert", sub_category: "Fruit & Berries"},
-  {name: "Orange", category: "Dessert", sub_category: "Fruit & Berries"},
-  {name: "Apple", category: "Dessert", sub_category: "Fruit & Berries"},
-  {name: "Peach", category: "Dessert", sub_category: "Fruit & Berries"}, 
-  {name: "Creme Brulee", category: "Dessert", sub_category: "Vanilla & Caramel"},
-  {name: "Ice Cream", category: "Dessert", sub_category: "Vanilla & Caramel"},
-  {name: "Tiramisu", category: "Dessert", sub_category: "Coffee & Chocolate"},
-  {name: "Chocolate Cake", category: "Dessert", sub_category: "Coffee & Chocolate"},
-  
+varietal = Varietal.create!([{style: "Rose", name: "Provencal Rose"},
+  {style: "Rose", name: "Loire Valley Rose"},
+  {style: "Rose", name: "Pinot Noir Rose"},
+  {style: "Rose", name: "Syrah Rose"},
+  {style: "Rose", name: "Garnacha Rose"},
+  {style: "Rose", name: "Bandol Rose"},
+  {style: "Rose", name: "Tempranillo Rose"},
        ])
 
 
