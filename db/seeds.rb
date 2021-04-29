@@ -6,12 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-preparation = Preparation.create!([
-  {style: "Poach/Steam"},
-  {style: "Roast"},
-  {style: "Smoke"},
-  {style: "Sautee/Fry"},
-  {style: "Grill/Barbecue"},
+classification = Classification.create!([
+  {style: "Aromatic/Sweet White"},
+  {style: "Dessert"},
+  {style: "Light-White"},
+  {style: "Full-White"},
+  {style: "Rosé"},
+  {style: "Light-Red"},
+  {style: "Medium-Red"},
+  {style: "Full-Red"},
+
        ])
 
 
