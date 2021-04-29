@@ -17,5 +17,5 @@ varietal = Varietal.create!([
   {style: "Full-Red", name: "Cabernet Sauvignon Blend"},
   {style: "Full-Red", name: "Meritage"},
        ])
-s
+
 
