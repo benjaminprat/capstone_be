@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_29_224456) do
+ActiveRecord::Schema.define(version: 2021_04_29_234503) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_29_224456) do
     t.string "style"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.text "examples", default: [], array: true
   end
 
   create_table "desserts", force: :cascade do |t|
@@ -73,6 +74,14 @@ ActiveRecord::Schema.define(version: 2021_04_29_224456) do
   create_table "pairing_keys", force: :cascade do |t|
     t.string "wine_style"
     t.string "pairings"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "pairings", force: :cascade do |t|
+    t.integer "ingredient_id"
+    t.integer "classification_id"
+    t.boolean "perfect_pairing"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
