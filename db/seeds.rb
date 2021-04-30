@@ -6,16 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-classification = Classification.create!([
-  {style: "Aromatic/Sweet White"},
-  {style: "Dessert"},
-  {style: "Light-White"},
-  {style: "Full-White"},
-  {style: "Rosé"},
-  {style: "Light-Red"},
-  {style: "Medium-Red"},
-  {style: "Full-Red"},
-
+pairing = Pairing.create!([
+  {ingredient_id: 49, classification_id: 3, perfect_pairing: false},
+  {ingredient_id: 50, classification_id: 3, perfect_pairing: false},
+  {ingredient_id: 51, classification_id: 3, perfect_pairing: false},
+  {ingredient_id: 52, classification_id: 3, perfect_pairing: false},
        ])
 
-
+      
