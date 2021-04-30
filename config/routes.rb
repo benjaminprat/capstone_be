@@ -22,6 +22,9 @@ Rails.application.routes.draw do
 
     get "/desserts" => "desserts#index"
     get "/desserts/:id" => "desserts#show"
+
+    post "/pairings" => "pairings#create"
+    get "/pairings" => "pairings#index"
     
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
