@@ -1,0 +1,8 @@
+{ id: @pairing.id,
+    name: @pairing.ingredient.name,
+    category: @pairing.ingredient.category,
+    sub_category: @pairing.ingredient.sub_category,
+    style: @pairing.classification.style,
+    perfect_pairing: @pairing.perfect_pairing,
+    examples: @pairing.classification.examples,
+}
