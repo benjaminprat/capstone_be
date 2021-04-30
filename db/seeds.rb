@@ -7,21 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 pairing = Pairing.create!([
-  {ingredient_id: 106, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 107, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 108, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 109, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 110, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 111, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 112, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 83, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 84, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 85, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 86, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 87, classification_id: 2, perfect_pairing: true},
-  {ingredient_id: 71, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 72, classification_id: 2, perfect_pairing: false},
-  {ingredient_id: 73, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 63, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 64, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 65, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 66, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 67, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 68, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 69, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 70, classification_id: 2, perfect_pairing: false},
+  {ingredient_id: 49, classification_id: 2, perfect_pairing: true},
+  {ingredient_id: 50, classification_id: 2, perfect_pairing: true},
+  {ingredient_id: 51, classification_id: 2, perfect_pairing: true},
+  {ingredient_id: 52, classification_id: 2, perfect_pairing: true},
 
 
   
