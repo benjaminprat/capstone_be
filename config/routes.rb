@@ -25,6 +25,7 @@ Rails.application.routes.draw do
 
     post "/pairings" => "pairings#create"
     get "/pairings" => "pairings#index"
+    get "/pairings/:id" => "pairings#show"
     
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
