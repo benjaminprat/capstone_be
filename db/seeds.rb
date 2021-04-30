@@ -7,17 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 pairing = Pairing.create!([
-  {ingredient_id: 106, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 107, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 108, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 109, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 110, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 111, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 112, classification_id: 1, perfect_pairing: false},
+  {ingredient_id: 83, classification_id: 1, perfect_pairing: false},
+  {ingredient_id: 84, classification_id: 1, perfect_pairing: false},
+  {ingredient_id: 85, classification_id: 1, perfect_pairing: false},
+  {ingredient_id: 86, classification_id: 1, perfect_pairing: false},
+  {ingredient_id: 87, classification_id: 1, perfect_pairing: false},
 
-
-  
-
-       ])
+  ])
 
       
