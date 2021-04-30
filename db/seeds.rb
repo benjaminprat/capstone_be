@@ -7,13 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 pairing = Pairing.create!([
-  {ingredient_id: 34, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 35, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 36, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 37, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 38, classification_id: 1, perfect_pairing: false},
-  {ingredient_id: 39, classification_id: 1, perfect_pairing: false},
-  
+  {ingredient_id: 32, classification_id: 1, perfect_pairing: true},
+  {ingredient_id: 33, classification_id: 1, perfect_pairing: true},
   ])
 
       
