@@ -2,7 +2,17 @@
 #  @pairings[0].ingredient.category
 #  @pairings[0].ingredient.sub_category
 
-@pairings
+@pairings.map do |pairing|
+  {
+   id: pairing.id,
+   ingredient: pairing.ingredient.name,
+   category: pairing.ingredient.category,
+   sub_category: pairing.ingredient.sub_category,
+   wine_style: pairing.classification.style,
+   perfect_pairing: pairing.perfect_pairing
+  }
+
+end
 # @pairings.map do |pairing|
 #   {
 # id: pairing.id,
