@@ -20,5 +20,22 @@ RSpec.describe "Wines", type: :request do
     end
   end
 
-  
+  describe "POST /wines" do
+    it "should create a new wine in the database" do
+
+      post "/api/wines", params: {
+        style: "the style",
+        producer_wine: "the producer_wine",
+        grape: "the grape",
+        region: "the region",
+        country: "the country",
+        vintage: "2008",
+      }
+      wine = JSON.parse(response.body)
+      expect(response).to have_http_status(200)
+      expect(wine["grape"]).to eq("the grape")
+
+    end
+  end
+
 end
