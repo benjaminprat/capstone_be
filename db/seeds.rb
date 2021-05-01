@@ -6,12 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-pairing = Pairing.create!([
-  {ingredient_id: 54, classification_id: 8, perfect_pairing: false},
-  {ingredient_id: 55, classification_id: 8, perfect_pairing: false},
-  {ingredient_id: 67, classification_id: 8, perfect_pairing: false},
-
-
+pairing= Pairing.create!([
+  {ingredient_id: 130, classification_id: 3, perfect_pairing: true},
+  {ingredient_id: 131, classification_id: 3, perfect_pairing: true},
+  {ingredient_id: 132, classification_id: 3, perfect_pairing: true},
+  {ingredient_id: 133, classification_id: 3, perfect_pairing: true},
 
   ])
 
