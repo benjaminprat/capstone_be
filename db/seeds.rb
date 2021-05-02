@@ -7,9 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 prep = PrepMethod.create!([
-  {style: "Poached/Steamed", classification_id: 6, perfect_pairing: false},
-  {style: "Sauteed/Fried", classification_id: 6, perfect_pairing: false},
-  {style: "Roasted", classification_id: 6, perfect_pairing: false},
+  {style: "Grilled/Barbecued", classification_id: 7, perfect_pairing: false},
+  {style: "Sauteed/Fried", classification_id: 7, perfect_pairing: true},
+  {style: "Roasted", classification_id: 7, perfect_pairing: false},
+  {style: "Smoked", classification_id: 7, perfect_pairing: false},
+
 
 
   ])
