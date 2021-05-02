@@ -6,12 +6,32 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-prep = PrepStyle.create!([
-  {name: "Grilled/Barbecued"},
-  {name: "Roasted"},
-  {name: "Smoked"},
-  {name: "Sauteed/Fried"},
-  {name: "Poached/Steamed"},
+prep = PrepWinePairing.create!([
+  {prep_style_id: 1, classification_id: 7, perfect_pairing: false},
+  {prep_style_id: 1, classification_id: 8, perfect_pairing: true},
+  {prep_style_id: 1, classification_id: 2, perfect_pairing: false},
+  {prep_style_id: 2, classification_id: 2, perfect_pairing: false},
+  {prep_style_id: 2, classification_id: 6, perfect_pairing: false},
+  {prep_style_id: 2, classification_id: 7, perfect_pairing: false},
+  {prep_style_id: 2, classification_id: 8, perfect_pairing: false},
+  {prep_style_id: 2, classification_id: 9, perfect_pairing: true},
+  {prep_style_id: 3, classification_id: 3, perfect_pairing: false},
+  {prep_style_id: 3, classification_id: 1, perfect_pairing: false},
+  {prep_style_id: 3, classification_id: 6, perfect_pairing: false},
+  {prep_style_id: 3, classification_id: 7, perfect_pairing: false},
+  {prep_style_id: 3, classification_id: 8, perfect_pairing: true},
+  {prep_style_id: 3, classification_id: 9, perfect_pairing: false},
+  {prep_style_id: 4, classification_id: 1, perfect_pairing: false},
+  {prep_style_id: 4, classification_id: 4, perfect_pairing: false},
+  {prep_style_id: 4, classification_id: 5, perfect_pairing: false},
+  {prep_style_id: 4, classification_id: 6, perfect_pairing: false},
+  {prep_style_id: 4, classification_id: 7, perfect_pairing: true},
+  {prep_style_id: 5, classification_id: 3, perfect_pairing: false},
+  {prep_style_id: 5, classification_id: 4, perfect_pairing: false},
+  {prep_style_id: 5, classification_id: 5, perfect_pairing: true},
+  {prep_style_id: 5, classification_id: 6, perfect_pairing: false},
+
+
   ])
 
       
