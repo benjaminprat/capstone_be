@@ -28,6 +28,8 @@ Rails.application.routes.draw do
     get "/pairings/:id" => "pairings#show"
     patch"/pairings/:id" => "pairings#update"
 
+    get "/prepwinepairings" => "prepwinepairings#index"
+    get "/prepwinepairings/:id" => "prepwinepairings#show"
     
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"

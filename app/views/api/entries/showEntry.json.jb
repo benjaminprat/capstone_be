@@ -2,6 +2,7 @@
   id: @entry.wine.id,
   producer_wine: @entry.wine.producer_wine,
   grape: @entry.wine.grape,
+  region: @entry.wine.region,
   country: @entry.wine.country,
   vintage: @entry.wine.vintage,
   user_id: @entry.user_id,
