@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_29_234503) do
+ActiveRecord::Schema.define(version: 2021_05_02_155917) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -80,6 +80,14 @@ ActiveRecord::Schema.define(version: 2021_04_29_234503) do
 
   create_table "pairings", force: :cascade do |t|
     t.integer "ingredient_id"
+    t.integer "classification_id"
+    t.boolean "perfect_pairing"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "prep_methods", force: :cascade do |t|
+    t.string "style"
     t.integer "classification_id"
     t.boolean "perfect_pairing"
     t.datetime "created_at", precision: 6, null: false
