@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-pairing= Pairing.create!([
-  {ingredient_id: 130, classification_id: 9, perfect_pairing: false},
-  {ingredient_id: 131, classification_id: 9, perfect_pairing: false},
-  {ingredient_id: 132, classification_id: 9, perfect_pairing: false},
-  {ingredient_id: 133, classification_id: 9, perfect_pairing: false},
+prep = PrepMethod.create!([
+  {style: "Poached/Steamed", classification_id: 1, perfect_pairing: false},
+  {style: "Smoked", classification_id: 1, perfect_pairing: false},
+  {style: "Sauteed/Fried", classification_id: 1, perfect_pairing: false},
+  {style: "Grilled/Barbecued", classification_id: 1, perfect_pairing: false},
 
   ])
 
