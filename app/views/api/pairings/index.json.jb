@@ -2,6 +2,7 @@
 #  @pairings[0].ingredient.category
 #  @pairings[0].ingredient.sub_category
 
+@pairings.map do |pairing|
   {
    id: pairing.id,
    ingredient: pairing.ingredient.name,
