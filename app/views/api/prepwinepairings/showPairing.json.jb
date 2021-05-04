@@ -1,7 +1,7 @@
 { id: @prepwinepairing.id,
   prep_style: @prepwinepairing.prep_style.name,
   wine_style: @prepwinepairing.classification.style,
-  
+  perfect_pairing: @prepwinepairing.perfect_pairing
 }
 
 
