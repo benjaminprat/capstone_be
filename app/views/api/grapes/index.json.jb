@@ -10,6 +10,8 @@
     dry: grape.dry,
     alcohol: grape.alcohol,
     dominant_flavors: grape.dominant_flavors,
+    classification_id: grape.classification_id,
+    
     
   }
 end

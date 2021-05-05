@@ -7,6 +7,7 @@ class Api::RedgrapesController < ApplicationController
 
   def create
     @redgrape = RedGrape.new(
+    classification_id: params[:classification_id],
     name: params[:name],
     pronunciation: params[:pronunciation],
     origin: params[:origin],

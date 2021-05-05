@@ -7,5 +7,6 @@
   acidity: @redgrape.acidity,
   alcohol: @redgrape.alcohol,
   dominant_flavors: @redgrape.dominant_flavors,
+  wine_style: @redgrape.classification.style
   
 }

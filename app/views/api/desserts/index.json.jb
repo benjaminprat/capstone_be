@@ -10,6 +10,8 @@
   acidity: dessert.acidity,
   alcohol: dessert.alcohol,
   dominant_flavors: dessert.dominant_flavors,
+  classification_id: dessert.classification_id,
+
   }
 
 end

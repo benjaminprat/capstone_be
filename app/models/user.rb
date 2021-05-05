@@ -4,7 +4,6 @@ class User < ApplicationRecord
   has_many :wines, through: :entries
   validates :first_name, presence: true
   validates :email, presence: true, uniqueness: true
-  validates :password_validation, presence: true
   
 
 end

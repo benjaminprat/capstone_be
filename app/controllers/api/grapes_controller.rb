@@ -25,5 +25,8 @@ class Api::GrapesController < ApplicationController
     @grape = Grape.find_by(id: grape_id)
     render "show.json.jb"
   end
+  
+
+
 end
 

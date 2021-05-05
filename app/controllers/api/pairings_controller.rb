@@ -22,14 +22,7 @@ class Api::PairingsController < ApplicationController
     render "show.json.jb"
   end
 
-  def update
-    @pairing = Pairing.find_by(id: params[:id])
-    @pairing.ingredient_id = params[:ingredient_id] ||  @pairing.ingredient_id
-    @pairing.classification_id = params[:classification_id] || @pairing.classification_id
-    @pairing.perfect_pairing = params[:perfect_pairing] || @pairing.ingredient.perfect_pairing
-    @pairing.save
-    render "show.json.jb"
-  end
+  
 
   
 end

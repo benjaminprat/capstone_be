@@ -16,7 +16,7 @@ class Api::EntriesController < ApplicationController
 
     @entry = Entry.new(
       wine_id: params[:wine_id],
-      user_id: current_user.id,
+      # user_id: current_user.id,
       opinion: params[:opinion],
       look: params[:look],
       smell: params[:smell],

@@ -1,6 +1,7 @@
 @redgrapes.map do |redgrape|
   {
     id: redgrape.id,
+    classification_id: redgrape.classification_id,
     name: redgrape.name,
     origin: redgrape.origin,
     pronunciation: redgrape.pronunciation,
